@@ -30,6 +30,7 @@ public class SmokeTest {
 
 	@Then("user should be able to login successfully")
 	public void user_should_be_able_to_login_successfully() {
+		System.out.println("first commit");
 		//driver.findElement(By.xpath("//input[@type='submit'][@id='u_0_3']")).click();
 	    
 	}
